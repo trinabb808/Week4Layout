@@ -1,0 +1,45 @@
+/* I chose CSS Grid because it makes building the page layout easier and keeps the contentmore organized. */
+ 
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ header {
+    background: #222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+ }
+ 
+ nav {
+    background: #eee;
+    padding: 12px;
+    text-align: center; 
+ }
+
+ .layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+    padding: 20px;
+ }
+
+ aside {
+    background: #f4f4f4;
+    padding: 20px;
+    
+ }
+
+ .event {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+ }
+
+ footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+ }  
